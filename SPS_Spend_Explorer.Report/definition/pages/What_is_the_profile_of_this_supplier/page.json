@@ -1,0 +1,557 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.2.0/schema.json",
+  "name": "ReportSectionce639f8020515ebdd914",
+  "displayName": "What is the profile of this supplier?",
+  "displayOption": "FitToWidth",
+  "height": 1080,
+  "width": 1920,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Filter1bf7c5804384bd3395aa",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier level 1"
+          }
+        },
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "s",
+              "Entity": "Supplier",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "s"
+                          }
+                        },
+                        "Property": "txt_cons_supplier_l1"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'OUTOKUMPU'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              },
+              "Annotations": {
+                "filterExpressionMetadata": {
+                  "expressions": [
+                    {
+                      "HierarchyLevel": {
+                        "Expression": {
+                          "Hierarchy": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Supplier"
+                              }
+                            },
+                            "Hierarchy": "Supplier"
+                          }
+                        },
+                        "Level": "Supplier level 1"
+                      }
+                    }
+                  ],
+                  "decomposedIdentities": {
+                    "values": [
+                      [
+                        {
+                          "0": [
+                            {
+                              "Literal": {
+                                "Value": "'OUTOKUMPU'"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    ],
+                    "columns": [
+                      {
+                        "value": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Supplier"
+                              }
+                            },
+                            "Property": "txt_cons_supplier_l1"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "valueMap": [
+                    {
+                      "0": "OUTOKUMPU"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter1da317919265c2f370c3",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier level 2"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filterbe136e485a33341917e5",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filterc896b1a56d9acddf30b5",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier ID"
+          }
+        },
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "Pod3",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "Param_Filter1bf7c5804384bd3395aa",
+        "boundFilter": "Filter1bf7c5804384bd3395aa",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier level 1"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter1da317919265c2f370c3",
+        "boundFilter": "Filter1da317919265c2f370c3",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier level 2"
+          }
+        }
+      },
+      {
+        "name": "Param_Filterbe136e485a33341917e5",
+        "boundFilter": "Filterbe136e485a33341917e5",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier"
+          }
+        }
+      },
+      {
+        "name": "Param_Filterc896b1a56d9acddf30b5",
+        "boundFilter": "Filterc896b1a56d9acddf30b5",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier ID"
+          }
+        }
+      }
+    ],
+    "acceptsFilterContext": "None"
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Footer background.svg'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Footer_background5579464472769662.svg"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Fit'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "filterCard": [
+      {
+        "properties": {
+          "border": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        },
+        "selector": {
+          "id": "Available"
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "width": {
+            "expr": {
+              "Literal": {
+                "Value": "270L"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visibility": "HiddenInViewMode",
+  "visualInteractions": [
+    {
+      "source": "81e6962151aaedd7b026",
+      "target": "681798200c4089ef0544",
+      "type": "DataFilter"
+    },
+    {
+      "source": "5c39c10a3ab63a15c2ab",
+      "target": "c5e660ad5eb1d0d012a2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5c39c10a3ab63a15c2ab",
+      "target": "681798200c4089ef0544",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "0157cbdb5d7187c8ecf3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "e62e925fb34e5507c388",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "be98de591e42365812bf",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "c5e660ad5eb1d0d012a2",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "b911e9a2a8b937ade4b0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "d8fee312b13090b20d85",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "6def9c2fc1eed1afd50d",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "f8f592fd7607fe20952d",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "862b04b894f102ce5c06",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "7e7bb2401f1358a3b6c7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "70ccc5cdc57074d5aa4d",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "fad1cda04c1bbffbf619",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "a7c60c955217be38a90c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "8da471959d79b9b884e1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "d631346687333deace37",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "614b3182cc7b47744b4d",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "b798b695b7e4279139b0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "81e6962151aaedd7b026",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "681798200c4089ef0544",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "3cae071e327d44eb7007",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "b64e271fb20bb66e3708",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "c21a0ac7a47c6acc90a0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "d061a0e0a7d703794571",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "5c39c10a3ab63a15c2ab",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "7298b5fe03462a304d01",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "e0138157246161288a88",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "392bae56cd2d707b6d38",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "f3df85ae9e1507a75576",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "e0688ce5c4410e4392e5",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "c3cd744695016de66b0c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c97d3e3241083fd215a",
+      "target": "9f50a4d9064103d15bdc",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8b90f18a8870e86e15a7",
+      "target": "4c97d3e3241083fd215a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "9f50a4d9064103d15bdc",
+      "target": "4c97d3e3241083fd215a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "c3cd744695016de66b0c",
+      "target": "4c97d3e3241083fd215a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "e0688ce5c4410e4392e5",
+      "target": "4c97d3e3241083fd215a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "f3df85ae9e1507a75576",
+      "target": "4c97d3e3241083fd215a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "392bae56cd2d707b6d38",
+      "target": "4c97d3e3241083fd215a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "e0138157246161288a88",
+      "target": "4c97d3e3241083fd215a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7298b5fe03462a304d01",
+      "target": "4c97d3e3241083fd215a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "5c39c10a3ab63a15c2ab",
+      "target": "4c97d3e3241083fd215a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d061a0e0a7d703794571",
+      "target": "4c97d3e3241083fd215a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "b64e271fb20bb66e3708",
+      "target": "8b90f18a8870e86e15a7",
+      "type": "DataFilter"
+    }
+  ]
+}

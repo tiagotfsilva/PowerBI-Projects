@@ -1,0 +1,402 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.2.0/schema.json",
+  "name": "ReportSectione6ff66eaa0c064504001",
+  "displayName": "Supplier vs category heatmap",
+  "displayOption": "FitToWidth",
+  "height": 1080,
+  "width": 1920,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Filter92ef93431283bc856d3b",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company"
+              }
+            },
+            "Level": "Company level 1"
+          }
+        },
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "c",
+              "Entity": "Company",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "c"
+                          }
+                        },
+                        "Property": "TXT_LEVEL_1"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Pardalis Holding'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              },
+              "Annotations": {
+                "filterExpressionMetadata": {
+                  "expressions": [
+                    {
+                      "HierarchyLevel": {
+                        "Expression": {
+                          "Hierarchy": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Company"
+                              }
+                            },
+                            "Hierarchy": "Company"
+                          }
+                        },
+                        "Level": "Company level 1"
+                      }
+                    }
+                  ],
+                  "decomposedIdentities": {
+                    "values": [
+                      [
+                        {
+                          "0": [
+                            {
+                              "Literal": {
+                                "Value": "'Pardalis Holding'"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    ],
+                    "columns": [
+                      {
+                        "value": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Company"
+                              }
+                            },
+                            "Property": "TXT_LEVEL_1"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "valueMap": [
+                    {
+                      "0": "Pardalis Holding"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filterebe7eb8732ec60bee747",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company"
+              }
+            },
+            "Level": "Company level 2"
+          }
+        },
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "c",
+              "Entity": "Company",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "c"
+                          }
+                        },
+                        "Property": "TXT_LEVEL_2"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Complex Assembly'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              },
+              "Annotations": {
+                "filterExpressionMetadata": {
+                  "expressions": [
+                    {
+                      "HierarchyLevel": {
+                        "Expression": {
+                          "Hierarchy": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Company"
+                              }
+                            },
+                            "Hierarchy": "Company"
+                          }
+                        },
+                        "Level": "Company level 2"
+                      }
+                    }
+                  ],
+                  "decomposedIdentities": {
+                    "values": [
+                      [
+                        {
+                          "0": [
+                            {
+                              "Literal": {
+                                "Value": "'Complex Assembly'"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    ],
+                    "columns": [
+                      {
+                        "value": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Company"
+                              }
+                            },
+                            "Property": "TXT_LEVEL_2"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "valueMap": [
+                    {
+                      "0": "Complex Assembly"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filterea50650c40c3e1bb6926",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company"
+              }
+            },
+            "Level": "Company level 3"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter53dd8dc3beb70ad90101",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company"
+              }
+            },
+            "Level": "Company level 4"
+          }
+        },
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "Pod35",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "Param_Filter92ef93431283bc856d3b",
+        "boundFilter": "Filter92ef93431283bc856d3b",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company"
+              }
+            },
+            "Level": "Company level 1"
+          }
+        }
+      },
+      {
+        "name": "Param_Filterebe7eb8732ec60bee747",
+        "boundFilter": "Filterebe7eb8732ec60bee747",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company"
+              }
+            },
+            "Level": "Company level 2"
+          }
+        }
+      },
+      {
+        "name": "Param_Filterea50650c40c3e1bb6926",
+        "boundFilter": "Filterea50650c40c3e1bb6926",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company"
+              }
+            },
+            "Level": "Company level 3"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter53dd8dc3beb70ad90101",
+        "boundFilter": "Filter53dd8dc3beb70ad90101",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company"
+              }
+            },
+            "Level": "Company level 4"
+          }
+        }
+      }
+    ],
+    "acceptsFilterContext": "None"
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Heatmap.svg'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Heatmap4012363519419355.svg"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Fit'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visibility": "HiddenInViewMode",
+  "visualInteractions": [
+    {
+      "source": "1e94d54bea90e008d47e",
+      "target": "0e231a418d6e0819ee59",
+      "type": "DataFilter"
+    }
+  ]
+}

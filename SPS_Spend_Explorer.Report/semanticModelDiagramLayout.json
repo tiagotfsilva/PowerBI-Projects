@@ -1,0 +1,550 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 6598.3224264478613,
+            "y": 1444.7127989846522
+          },
+          "nodeIndex": "Custom Measures Table",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 2632.3224264478613,
+            "y": 1394.7127989846522
+          },
+          "nodeIndex": "Measures Table",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 159.4062808850573,
+            "y": 996.72409637906821
+          },
+          "nodeIndex": "Account",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2358.3224264478613,
+            "y": 1027.1199785237875
+          },
+          "nodeIndex": "Category tree",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1658.6214509138208,
+            "y": 352.14520968847455
+          },
+          "nodeIndex": "Company",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1682.8036522804339,
+            "y": 2831.4255979693044
+          },
+          "nodeIndex": "Cost center",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1568.0470322156521,
+            "y": 1462.271321864516
+          },
+          "nodeIndex": "Fact invoice position",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1694.7787131290465,
+            "y": 1038.0363896418753
+          },
+          "nodeIndex": "Fact order",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1832.3691144719628,
+            "y": 1824.0864748679519
+          },
+          "nodeIndex": "Fact payment",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 10,
+            "y": 427.6496673828583
+          },
+          "nodeIndex": "Fact Revenue FTEs",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2916.3224264478613,
+            "y": 1480.7127989846522
+          },
+          "nodeIndex": "Filter time intelligence",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3200.3224264478613,
+            "y": 1492.7127989846522
+          },
+          "nodeIndex": "Format",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3484.3224264478613,
+            "y": 1456.7127989846522
+          },
+          "nodeIndex": "Glossary",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 453.7065737353567,
+            "y": 920.656069800265
+          },
+          "nodeIndex": "ICM Archetype",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 746.80574453750774,
+            "y": 996.97375650507411
+          },
+          "nodeIndex": "ICM Archetype Index mapping",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1039.6663498932423,
+            "y": 717.54522435957551
+          },
+          "nodeIndex": "ICM Component",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1119.6004280721977,
+            "y": 1078.4315276270765
+          },
+          "nodeIndex": "ICM Index",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2325.035087470038,
+            "y": 2619.2624772092327
+          },
+          "nodeIndex": "ICM Spend Archetype Mapping",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2203.0748023411306,
+            "y": 1553.5733090366543
+          },
+          "nodeIndex": "Incoterm",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3768.3224264478613,
+            "y": 1394.7127989846522
+          },
+          "nodeIndex": "Indirect index",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2028.815015965376,
+            "y": 2830.9180676031265
+          },
+          "nodeIndex": "Invoice",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2278.9586907291523,
+            "y": 662.77785863233748
+          },
+          "nodeIndex": "Material",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1406.2996089479684,
+            "y": 714.91448382638782
+          },
+          "nodeIndex": "Material group",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 483.77895082696762,
+            "y": 1252.4727746709284
+          },
+          "nodeIndex": "Order",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 223.04821679053032,
+            "y": 1561.2371531905783
+          },
+          "nodeIndex": "Order reference",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4052.3224264478613,
+            "y": 1468.7127989846522
+          },
+          "nodeIndex": "Parameter ABC category",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4336.3224264478613,
+            "y": 1492.7127989846522
+          },
+          "nodeIndex": "Parameter perct",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4620.3224264478613,
+            "y": 1480.7127989846522
+          },
+          "nodeIndex": "Parameter topn",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4904.3224264478613,
+            "y": 1468.7127989846522
+          },
+          "nodeIndex": "Parameters benchmarking KPI",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 5188.3224264478613,
+            "y": 1480.7127989846522
+          },
+          "nodeIndex": "Parameters KPI Explorer",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 5472.3224264478613,
+            "y": 1456.7127989846522
+          },
+          "nodeIndex": "Parameters synergy",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1514.1380318723252,
+            "y": -10
+          },
+          "nodeIndex": "Payment term",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 906.68571253060531,
+            "y": 354.31237089805472
+          },
+          "nodeIndex": "Period",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1797.9813559845566,
+            "y": 2472.2066672464471
+          },
+          "nodeIndex": "Plant",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1975.6075737686961,
+            "y": 2185.5467520830866
+          },
+          "nodeIndex": "PO compliance",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1238.3490749953526,
+            "y": 2012.1184479295437
+          },
+          "nodeIndex": "Profit center",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 5756.3224264478613,
+            "y": 1444.7127989846522
+          },
+          "nodeIndex": "Reporting currency",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 6040.3224264478613,
+            "y": 1468.7127989846522
+          },
+          "nodeIndex": "Significant dates",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1285.5443304606497,
+            "y": 354.3124703403646
+          },
+          "nodeIndex": "Supplier",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1405.7829563970058,
+            "y": 1099.392039453186
+          },
+          "nodeIndex": "Supplier country",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1272.3521510544324,
+            "y": 1778.3219420335417
+          },
+          "nodeIndex": "Supplier status",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 6324.3224264478613,
+            "y": 1480.7127989846522
+          },
+          "nodeIndex": "Time utility",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1984.2423313453405,
+            "y": 755.38416824867727
+          },
+          "nodeIndex": "Unit of measurement",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2062.65244346532,
+            "y": 1318.0738509691014
+          },
+          "nodeIndex": "Value type",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 17.715610000000009,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

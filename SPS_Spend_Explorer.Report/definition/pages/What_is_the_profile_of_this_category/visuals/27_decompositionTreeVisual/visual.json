@@ -1,0 +1,522 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.2.0/schema.json",
+  "name": "87b617d513c9a9b819df",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "height": 585,
+    "width": 1664,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "decompositionTreeVisual",
+    "query": {
+      "queryState": {
+        "Analyze": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measures Table"
+                    }
+                  },
+                  "Property": "Spend"
+                }
+              },
+              "queryRef": "Measures Table.Spend",
+              "nativeQueryRef": "Spend"
+            }
+          ]
+        },
+        "ExplainBy": {
+          "projections": [
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Category tree"
+                        }
+                      },
+                      "Hierarchy": "Category tree names"
+                    }
+                  },
+                  "Level": "Category name level 1"
+                }
+              },
+              "queryRef": "Category tree.Category tree names.Category name level 1",
+              "nativeQueryRef": "Category tree names Category name level 1"
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Category tree"
+                        }
+                      },
+                      "Hierarchy": "Category tree names"
+                    }
+                  },
+                  "Level": "Category name level 2"
+                }
+              },
+              "queryRef": "Category tree.Category tree names.Category name level 2",
+              "nativeQueryRef": "Category tree names Category name level 2"
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Category tree"
+                        }
+                      },
+                      "Hierarchy": "Category tree names"
+                    }
+                  },
+                  "Level": "Category name level 3"
+                }
+              },
+              "queryRef": "Category tree.Category tree names.Category name level 3",
+              "nativeQueryRef": "Category tree names Category name level 3"
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Category tree"
+                        }
+                      },
+                      "Hierarchy": "Category tree names"
+                    }
+                  },
+                  "Level": "Category name level 4"
+                }
+              },
+              "queryRef": "Category tree.Category tree names.Category name level 4",
+              "nativeQueryRef": "Category tree names Category name level 4"
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Supplier"
+                        }
+                      },
+                      "Hierarchy": "Supplier"
+                    }
+                  },
+                  "Level": "Supplier level 1"
+                }
+              },
+              "queryRef": "Supplier.Supplier.Supplier level 1",
+              "nativeQueryRef": "Supplier Supplier level 1"
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Supplier"
+                        }
+                      },
+                      "Hierarchy": "Supplier"
+                    }
+                  },
+                  "Level": "Supplier level 2"
+                }
+              },
+              "queryRef": "Supplier.Supplier.Supplier level 2",
+              "nativeQueryRef": "Supplier Supplier level 2"
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Supplier"
+                        }
+                      },
+                      "Hierarchy": "Supplier"
+                    }
+                  },
+                  "Level": "Supplier"
+                }
+              },
+              "queryRef": "Supplier.Supplier.Supplier",
+              "nativeQueryRef": "Supplier Supplier"
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Supplier"
+                        }
+                      },
+                      "Hierarchy": "Supplier"
+                    }
+                  },
+                  "Level": "Supplier ID"
+                }
+              },
+              "queryRef": "Supplier.Supplier.Supplier ID",
+              "nativeQueryRef": "Supplier Supplier ID"
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Supplier country"
+                        }
+                      },
+                      "Hierarchy": "Supplier geography"
+                    }
+                  },
+                  "Level": "Supplier country"
+                }
+              },
+              "queryRef": "Supplier country.Supplier geography.Supplier country",
+              "nativeQueryRef": "Supplier geography Supplier country"
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Company"
+                        }
+                      },
+                      "Hierarchy": "Company geography"
+                    }
+                  },
+                  "Level": "Company country"
+                }
+              },
+              "queryRef": "Company.Company geography.Company country",
+              "nativeQueryRef": "Company geography Company country"
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Company"
+                        }
+                      },
+                      "Hierarchy": "Company"
+                    }
+                  },
+                  "Level": "Company level 1"
+                }
+              },
+              "queryRef": "Company.Company.Company level 1",
+              "nativeQueryRef": "Company Company level 1"
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Company"
+                        }
+                      },
+                      "Hierarchy": "Company"
+                    }
+                  },
+                  "Level": "Company level 2"
+                }
+              },
+              "queryRef": "Company.Company.Company level 2",
+              "nativeQueryRef": "Company Company level 2"
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Company"
+                        }
+                      },
+                      "Hierarchy": "Company"
+                    }
+                  },
+                  "Level": "Company level 3"
+                }
+              },
+              "queryRef": "Company.Company.Company level 3",
+              "nativeQueryRef": "Company Company level 3"
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Company"
+                        }
+                      },
+                      "Hierarchy": "Company"
+                    }
+                  },
+                  "Level": "Company level 4"
+                }
+              },
+              "queryRef": "Company.Company.Company level 4",
+              "nativeQueryRef": "Company Company level 4"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Measures Table"
+                  }
+                },
+                "Property": "Spend"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "tree": [
+        {
+          "properties": {
+            "effectiveBarsPerLevel": {
+              "expr": {
+                "Literal": {
+                  "Value": "6L"
+                }
+              }
+            },
+            "density": {
+              "expr": {
+                "Literal": {
+                  "Value": "'default'"
+                }
+              }
+            },
+            "defaultClickAction": {
+              "expr": {
+                "Literal": {
+                  "Value": "'select'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "levelHeader": [
+        {
+          "properties": {
+            "levelTitleFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "levelSubtitleFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dataBars": [
+        {
+          "properties": {
+            "dataBarWidthPercent": {
+              "expr": {
+                "Literal": {
+                  "Value": "150L"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "categoryLabels": [
+        {
+          "properties": {
+            "categoryLabelFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dataLabels": [
+        {
+          "properties": {
+            "dataLabelFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Decompose category spend'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "24D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Expand spend across various dimensions by selecting the (+) icon'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "fad7322c57c51296eaa6",
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Filter59d2c87de61eac500910",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Format"
+              }
+            },
+            "Property": "Format_dynamic"
+          }
+        },
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "f",
+              "Entity": "Format",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "f"
+                          }
+                        },
+                        "Property": "Format_dynamic"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'format big numbers'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User",
+        "isHiddenInViewMode": true
+      }
+    ]
+  }
+}

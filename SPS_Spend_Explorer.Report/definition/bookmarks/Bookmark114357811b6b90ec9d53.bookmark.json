@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/1.2.0/schema.json",
+  "displayName": "Time utility",
+  "name": "Bookmark114357811b6b90ec9d53",
+  "options": {
+    "applyOnlyToTargetVisuals": true,
+    "targetVisualNames": [
+      "3baa4191561800ceecc2",
+      "e9d758f17d80bd97cc81",
+      "e4c9f766d06d675c529d"
+    ],
+    "suppressData": true
+  },
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "ReportSectionfc995aac4364544775e2",
+    "sections": {
+      "ReportSectionfc995aac4364544775e2": {
+        "visualContainers": {},
+        "visualContainerGroups": {
+          "68bbbc62ad02c5b02306": {
+            "isHidden": false,
+            "children": {
+              "35971c4ac72aac851e79": {
+                "isHidden": true
+              }
+            }
+          },
+          "aa8b613a4ccc5733247e": {
+            "isHidden": false
+          }
+        }
+      }
+    },
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              },
+              "visible": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

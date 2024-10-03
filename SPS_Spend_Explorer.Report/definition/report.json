@@ -1,0 +1,359 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/1.2.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY22SU09",
+      "reportVersionAtImport": "5.39",
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "Spendscape_-_Monday8404367220731472.json",
+      "reportVersionAtImport": "5.51",
+      "type": "RegisteredResources"
+    }
+  },
+  "layoutOptimization": "None",
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "c741a14eb54948f07a5c",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Period"
+                  }
+                },
+                "Hierarchy": "Period"
+              }
+            },
+            "Level": "Year"
+          }
+        },
+        "type": "Advanced",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "p",
+              "Entity": "Period",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "Comparison": {
+                      "ComparisonKind": 0,
+                      "Left": {
+                        "HierarchyLevel": {
+                          "Expression": {
+                            "Hierarchy": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Source": "p"
+                                }
+                              },
+                              "Hierarchy": "Period"
+                            }
+                          },
+                          "Level": "Year"
+                        }
+                      },
+                      "Right": {
+                        "Literal": {
+                          "Value": "null"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      }
+    ]
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "visible": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "publicCustomVisuals": [
+    "SimpleWaterfall"
+  ],
+  "resourcePackages": [
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "Chevron_Down3324009873333835.png",
+          "path": "Chevron_Down3324009873333835.png",
+          "type": "Image"
+        },
+        {
+          "name": "Chevron_Up8100024275748636.png",
+          "path": "Chevron_Up8100024275748636.png",
+          "type": "Image"
+        },
+        {
+          "name": "White_background_DOC.4802786193106272.svg",
+          "path": "White_background_DOC.4802786193106272.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background2690610985702384.svg",
+          "path": "Footer_background2690610985702384.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background48166152271375595.svg",
+          "path": "Footer_background48166152271375595.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background8659238712189792.svg",
+          "path": "Footer_background8659238712189792.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Home_bcg220765693075896907.svg",
+          "path": "Home_bcg220765693075896907.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Spendscape_-_Monday8404367220731472.json",
+          "path": "Spendscape_-_Monday8404367220731472.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "Footer_background5733841201528715.svg",
+          "path": "Footer_background5733841201528715.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background13960889438491542.svg",
+          "path": "Footer_background13960889438491542.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background8114246389274922.svg",
+          "path": "Footer_background8114246389274922.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background5732007591673303.svg",
+          "path": "Footer_background5732007591673303.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background38636412645443485.svg",
+          "path": "Footer_background38636412645443485.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background8738227597059491.svg",
+          "path": "Footer_background8738227597059491.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background8983699955108098.svg",
+          "path": "Footer_background8983699955108098.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background033843500733029774.svg",
+          "path": "Footer_background033843500733029774.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background3871798366891115.svg",
+          "path": "Footer_background3871798366891115.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background026815610923506483.svg",
+          "path": "Footer_background026815610923506483.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background13463477231539156.svg",
+          "path": "Footer_background13463477231539156.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background13928323678640964.svg",
+          "path": "Footer_background13928323678640964.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background2513537571063129.svg",
+          "path": "Footer_background2513537571063129.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background41796399235929416.svg",
+          "path": "Footer_background41796399235929416.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background15188465813496088.svg",
+          "path": "Footer_background15188465813496088.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background8416794440544575.svg",
+          "path": "Footer_background8416794440544575.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background4005642833815728.svg",
+          "path": "Footer_background4005642833815728.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background3533000399095112.svg",
+          "path": "Footer_background3533000399095112.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background8881090641747296.svg",
+          "path": "Footer_background8881090641747296.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background5749537165791769.svg",
+          "path": "Footer_background5749537165791769.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background041744890234046705.svg",
+          "path": "Footer_background041744890234046705.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background9511632220725872.svg",
+          "path": "Footer_background9511632220725872.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background29342410371386585.svg",
+          "path": "Footer_background29342410371386585.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background622760368791373.svg",
+          "path": "Footer_background622760368791373.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background5579464472769662.svg",
+          "path": "Footer_background5579464472769662.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background5435788463795019.svg",
+          "path": "Footer_background5435788463795019.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background26093806267051356.svg",
+          "path": "Footer_background26093806267051356.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background8340527579934205.svg",
+          "path": "Footer_background8340527579934205.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Footer_background6272853034017325.svg",
+          "path": "Footer_background6272853034017325.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Heatmap031022681376649208.svg",
+          "path": "Heatmap031022681376649208.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Heatmap30170927713437456.svg",
+          "path": "Heatmap30170927713437456.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Heatmap4012363519419355.svg",
+          "path": "Heatmap4012363519419355.svg",
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY22SU09",
+          "path": "BaseThemes/CY22SU09.json",
+          "type": "BaseTheme"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "allowInlineExploration": true,
+    "useEnhancedTooltips": true,
+    "useScaledTooltips": true,
+    "useDefaultAggregateDisplayName": true,
+    "queryLimitOption": "None",
+    "customMemoryLimit": "1048576",
+    "customTimeoutLimit": "225"
+  },
+  "slowDataSourceSettings": {
+    "isCrossHighlightingDisabled": true,
+    "isSlicerSelectionsButtonEnabled": false,
+    "isFilterSelectionsButtonEnabled": false,
+    "isFieldWellButtonEnabled": false,
+    "isApplyAllButtonEnabled": false
+  }
+}

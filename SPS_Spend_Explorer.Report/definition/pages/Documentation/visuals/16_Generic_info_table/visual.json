@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.2.0/schema.json",
+  "name": "5ef9a0a35a8462f99580",
+  "position": {
+    "x": 128,
+    "y": 224,
+    "z": 2000,
+    "height": 174.41873970380868,
+    "width": 1664,
+    "tabOrder": 1000
+  },
+  "visualGroup": {
+    "displayName": "Generic info table",
+    "groupMode": "ScaleMode"
+  },
+  "isHidden": true
+}

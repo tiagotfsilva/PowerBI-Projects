@@ -1,0 +1,266 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.2.0/schema.json",
+  "name": "ReportSection292d36040d703a5ecaeb",
+  "displayName": "Category vs company heatmap",
+  "displayOption": "FitToWidth",
+  "height": 1080,
+  "width": 1920,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Filter40c80eb89dcb6b74fe98",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier level 1"
+          }
+        },
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "s",
+              "Entity": "Supplier",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "s"
+                          }
+                        },
+                        "Property": "txt_cons_supplier_l1"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'OUTOKUMPU'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filtere958342d6f5717d00ffd",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier level 2"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter21c7878367507c9fbcda",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filterdfb4bd20c68d7e7c5d90",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier ID"
+          }
+        },
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "Pod30",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "Param_Filter40c80eb89dcb6b74fe98",
+        "boundFilter": "Filter40c80eb89dcb6b74fe98",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier level 1"
+          }
+        }
+      },
+      {
+        "name": "Param_Filtere958342d6f5717d00ffd",
+        "boundFilter": "Filtere958342d6f5717d00ffd",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier level 2"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter21c7878367507c9fbcda",
+        "boundFilter": "Filter21c7878367507c9fbcda",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier"
+          }
+        }
+      },
+      {
+        "name": "Param_Filterdfb4bd20c68d7e7c5d90",
+        "boundFilter": "Filterdfb4bd20c68d7e7c5d90",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier ID"
+          }
+        }
+      }
+    ],
+    "acceptsFilterContext": "None"
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Heatmap.svg'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Heatmap031022681376649208.svg"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Fit'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "width": {
+            "expr": {
+              "Literal": {
+                "Value": "317L"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visibility": "HiddenInViewMode",
+  "visualInteractions": [
+    {
+      "source": "dfe53d2bd06030415276",
+      "target": "e236cb69022b3a016db4",
+      "type": "DataFilter"
+    }
+  ]
+}

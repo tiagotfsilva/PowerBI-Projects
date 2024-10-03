@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.2.0/schema.json",
+  "name": "75c7b795625f21e21f9b",
+  "position": {
+    "x": 128,
+    "y": 415,
+    "z": 5000,
+    "height": 585,
+    "width": 1664,
+    "tabOrder": 6000
+  },
+  "visualGroup": {
+    "displayName": "Spend decomposition",
+    "groupMode": "ScaleMode"
+  },
+  "isHidden": true
+}

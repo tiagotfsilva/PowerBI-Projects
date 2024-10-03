@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.2.0/schema.json",
+  "name": "e6fa308add0ac798e008",
+  "position": {
+    "x": 780,
+    "y": 415,
+    "z": 1000,
+    "height": 585.00000000000011,
+    "width": 1012.0000000000001,
+    "tabOrder": 2000
+  },
+  "visualGroup": {
+    "displayName": "Spend over time",
+    "groupMode": "ScaleMode"
+  }
+}

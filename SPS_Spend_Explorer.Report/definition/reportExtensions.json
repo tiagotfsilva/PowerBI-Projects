@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/reportExtension/1.0.0/schema.json",
+  "name": "extension",
+  "entities": [
+    {
+      "name": "Custom Measures Table",
+      "measures": [
+        {
+          "name": "Supplier share in category %",
+          "dataType": "Double",
+          "expression": "\nVAR all_supplier_category_spend =\n    CALCULATE ( [Spend], REMOVEFILTERS(Supplier[txt_cons_supplier_l1]) )\n\n\nvar measure_spend = [Spend]\n\nvar supplier_category_share = \n    SWITCH (\n        TRUE (),\n        OR(ISBLANK(measure_spend), NOT ISFILTERED('Category tree')), BLANK (),\n        measure_spend/all_supplier_category_spend\n         )\n\nRETURN supplier_category_share\n    ",
+          "formatString": "0.00\\ %;-0.00\\ %;0.00\\ %",
+          "references": {
+            "measures": [
+              {
+                "entity": "Measures Table",
+                "name": "Spend"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Suppliers count L1 (supplier profile)",
+          "dataType": "Integer",
+          "expression": "\nIF(\n    AND(NOT ISBLANK([Spend]), OR(ISFILTERED('Category tree'), ISFILTERED(Material))),\n    CALCULATE([Count level1 suppliers], ALL(Supplier)) \n)",
+          "formatString": "#,0",
+          "references": {
+            "measures": [
+              {
+                "entity": "Measures Table",
+                "name": "Spend"
+              },
+              {
+                "entity": "Measures Table",
+                "name": "Count level1 suppliers"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.2.0/schema.json",
+  "name": "ReportSectione3d3ee907a221aab4eed",
+  "displayName": "Supplier",
+  "displayOption": "FitToWidth",
+  "height": 1080,
+  "width": 1920,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "c48ff6458d1e1606c7a7",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Value type"
+                  }
+                },
+                "Hierarchy": "Value type"
+              }
+            },
+            "Level": "Value type"
+          }
+        },
+        "howCreated": "User"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "Pod7",
+    "type": "Default",
+    "parameters": [],
+    "acceptsFilterContext": "None"
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Footer background.svg'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Footer_background8114246389274922.svg"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Fit'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visibility": "HiddenInViewMode",
+  "visualInteractions": [
+    {
+      "source": "8e97be56570a473e2f9e",
+      "target": "f7416e06c5017ccdb79a",
+      "type": "DataFilter"
+    },
+    {
+      "source": "f73e17be5a33ee9247e6",
+      "target": "f7416e06c5017ccdb79a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8e97be56570a473e2f9e",
+      "target": "7633403cee98852e05d5",
+      "type": "DataFilter"
+    },
+    {
+      "source": "7633403cee98852e05d5",
+      "target": "8e97be56570a473e2f9e",
+      "type": "DataFilter"
+    },
+    {
+      "source": "7633403cee98852e05d5",
+      "target": "f7416e06c5017ccdb79a",
+      "type": "DataFilter"
+    },
+    {
+      "source": "8e97be56570a473e2f9e",
+      "target": "c89c53384a753c6935c1",
+      "type": "DataFilter"
+    },
+    {
+      "source": "fc9a1af1c12bb191a0b1",
+      "target": "674617a910dc90388546",
+      "type": "DataFilter"
+    },
+    {
+      "source": "8e97be56570a473e2f9e",
+      "target": "37c7f961c7055fdbdabc",
+      "type": "DataFilter"
+    },
+    {
+      "source": "7633403cee98852e05d5",
+      "target": "37c7f961c7055fdbdabc",
+      "type": "DataFilter"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.2.0/schema.json",
+  "name": "6c9739dc057c166c8cab",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 1000,
+    "height": 585.241990106284,
+    "width": 806,
+    "tabOrder": 0
+  },
+  "visualGroup": {
+    "displayName": "Waterfall",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "2dd03fb995c3a15c1d71"
+}

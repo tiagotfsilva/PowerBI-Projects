@@ -1,0 +1,518 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.2.0/schema.json",
+  "name": "ReportSectioncb96b402eae0d836806e",
+  "displayName": "What is the profile of this category?",
+  "displayOption": "FitToWidth",
+  "height": 1080,
+  "width": 1920,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Filterbf6a6b7f446b9a7aeb33",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Category tree"
+                  }
+                },
+                "Hierarchy": "Category tree names"
+              }
+            },
+            "Level": "Category name level 1"
+          }
+        },
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "c",
+              "Entity": "Category tree",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "c"
+                          }
+                        },
+                        "Property": "TXT_CATEGORY_LEVEL_1"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Directs'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              },
+              "Annotations": {
+                "filterExpressionMetadata": {
+                  "expressions": [
+                    {
+                      "HierarchyLevel": {
+                        "Expression": {
+                          "Hierarchy": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Category tree"
+                              }
+                            },
+                            "Hierarchy": "Category tree names"
+                          }
+                        },
+                        "Level": "Category name level 1"
+                      }
+                    }
+                  ],
+                  "decomposedIdentities": {
+                    "values": [
+                      [
+                        {
+                          "0": [
+                            {
+                              "Literal": {
+                                "Value": "'Directs'"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    ],
+                    "columns": [
+                      {
+                        "value": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Category tree"
+                              }
+                            },
+                            "Property": "TXT_CATEGORY_LEVEL_1"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "valueMap": [
+                    {
+                      "0": "Directs"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter9bd0e954c2fd6f00f8ab",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Category tree"
+                  }
+                },
+                "Hierarchy": "Category tree names"
+              }
+            },
+            "Level": "Category name level 2"
+          }
+        },
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "c",
+              "Entity": "Category tree",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "c"
+                          }
+                        },
+                        "Property": "TXT_CATEGORY_LEVEL_2"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Structures and Building and Construction and Manufacturing Components and Supplies'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              },
+              "Annotations": {
+                "filterExpressionMetadata": {
+                  "expressions": [
+                    {
+                      "HierarchyLevel": {
+                        "Expression": {
+                          "Hierarchy": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Category tree"
+                              }
+                            },
+                            "Hierarchy": "Category tree names"
+                          }
+                        },
+                        "Level": "Category name level 2"
+                      }
+                    }
+                  ],
+                  "decomposedIdentities": {
+                    "values": [
+                      [
+                        {
+                          "0": [
+                            {
+                              "Literal": {
+                                "Value": "'Structures and Building and Construction and Manufacturing Components and Supplies'"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    ],
+                    "columns": [
+                      {
+                        "value": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Category tree"
+                              }
+                            },
+                            "Property": "TXT_CATEGORY_LEVEL_2"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "valueMap": [
+                    {
+                      "0": "Structures and Building and Construction and Manufacturing Components and Supplies"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter02531d56333f62505264",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Category tree"
+                  }
+                },
+                "Hierarchy": "Category tree names"
+              }
+            },
+            "Level": "Category name level 3"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filterd650727e2b1d4ba24682",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Category tree"
+                  }
+                },
+                "Hierarchy": "Category tree names"
+              }
+            },
+            "Level": "Category name level 4"
+          }
+        },
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "Pod1",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "Param_Filterbf6a6b7f446b9a7aeb33",
+        "boundFilter": "Filterbf6a6b7f446b9a7aeb33",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Category tree"
+                  }
+                },
+                "Hierarchy": "Category tree names"
+              }
+            },
+            "Level": "Category name level 1"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter9bd0e954c2fd6f00f8ab",
+        "boundFilter": "Filter9bd0e954c2fd6f00f8ab",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Category tree"
+                  }
+                },
+                "Hierarchy": "Category tree names"
+              }
+            },
+            "Level": "Category name level 2"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter02531d56333f62505264",
+        "boundFilter": "Filter02531d56333f62505264",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Category tree"
+                  }
+                },
+                "Hierarchy": "Category tree names"
+              }
+            },
+            "Level": "Category name level 3"
+          }
+        }
+      },
+      {
+        "name": "Param_Filterd650727e2b1d4ba24682",
+        "boundFilter": "Filterd650727e2b1d4ba24682",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Category tree"
+                  }
+                },
+                "Hierarchy": "Category tree names"
+              }
+            },
+            "Level": "Category name level 4"
+          }
+        }
+      }
+    ],
+    "acceptsFilterContext": "None"
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Footer background.svg'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Footer_background622760368791373.svg"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Fit'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "filterCard": [
+      {
+        "properties": {
+          "border": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        },
+        "selector": {
+          "id": "Available"
+        }
+      }
+    ]
+  },
+  "visibility": "HiddenInViewMode",
+  "visualInteractions": [
+    {
+      "source": "90b35f72a5432d9c3302",
+      "target": "57de803d4687381428d8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "90b35f72a5432d9c3302",
+      "target": "c3a5f39b1fbc7fa71f01",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "1a99fa9e9ecf2f92ad4f",
+      "type": "DataFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "bd83b34d8ba4de3adf02",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "71b0291535f343095815",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "080f610cddc41aa810d3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "57de803d4687381428d8",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "4ea674dc4d91c5e26827",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "73db3dfe57b28546e5a3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "87b617d513c9a9b819df",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "cadf090c551aab1063f0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "ca288fa9a4045a8dbac0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "de11836a19da1254b56e",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "5633184d1b98fd92a52c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "7e48fd75c6b6a40b954e",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "54d5514259624bcaa3a1",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "09dc9fc0f8aee9e34953",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "2f88746f13736fe25173",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "d417e591c08033c4dc7f",
+      "type": "NoFilter"
+    },
+    {
+      "source": "8620fda793b839757f36",
+      "target": "c3a5f39b1fbc7fa71f01",
+      "type": "NoFilter"
+    },
+    {
+      "source": "688a594f6d64077b0430",
+      "target": "d1f620f2460958526b47",
+      "type": "DataFilter"
+    }
+  ]
+}

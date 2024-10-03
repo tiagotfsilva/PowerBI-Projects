@@ -1,0 +1,1222 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.2.0/schema.json",
+  "name": "ReportSectionb08e033278ce1d285601",
+  "displayName": "Which plants are behind this?",
+  "displayOption": "FitToWidth",
+  "height": 1080,
+  "width": 1920,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Filtere82e21855d7e1000c0d7",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company"
+              }
+            },
+            "Level": "Company level 1"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filterb0f93bc560b50b46b2dd",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company"
+              }
+            },
+            "Level": "Company level 2"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter979f4d569c2654e57b66",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company"
+              }
+            },
+            "Level": "Company level 3"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter0892bd0add70bedc17cb",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company"
+              }
+            },
+            "Level": "Company level 4"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter6e78c53e19b82e2ab3c3",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Category tree"
+                  }
+                },
+                "Hierarchy": "Category tree names"
+              }
+            },
+            "Level": "Category name level 1"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter971009e982a75742bba6",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Category tree"
+                  }
+                },
+                "Hierarchy": "Category tree names"
+              }
+            },
+            "Level": "Category name level 2"
+          }
+        },
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "c",
+              "Entity": "Category tree",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "c"
+                          }
+                        },
+                        "Property": "TXT_CATEGORY_LEVEL_2"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Corporate Services'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              },
+              "Annotations": {
+                "filterExpressionMetadata": {
+                  "expressions": [
+                    {
+                      "HierarchyLevel": {
+                        "Expression": {
+                          "Hierarchy": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Category tree"
+                              }
+                            },
+                            "Hierarchy": "Category tree names"
+                          }
+                        },
+                        "Level": "Category name level 2"
+                      }
+                    }
+                  ],
+                  "decomposedIdentities": {
+                    "values": [
+                      [
+                        {
+                          "0": [
+                            {
+                              "Literal": {
+                                "Value": "'Corporate Services'"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    ],
+                    "columns": [
+                      {
+                        "value": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Category tree"
+                              }
+                            },
+                            "Property": "TXT_CATEGORY_LEVEL_2"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "valueMap": [
+                    {
+                      "0": "Corporate Services"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filtera95ba2923b0ebb2d26cd",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Category tree"
+                  }
+                },
+                "Hierarchy": "Category tree names"
+              }
+            },
+            "Level": "Category name level 3"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filtere000d06a6250f2f8d7c9",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Category tree"
+                  }
+                },
+                "Hierarchy": "Category tree names"
+              }
+            },
+            "Level": "Category name level 4"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter40c80eb89dcb6b74fe98",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier level 1"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filtere958342d6f5717d00ffd",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier level 2"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter21c7878367507c9fbcda",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filterdfb4bd20c68d7e7c5d90",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier ID"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter54e4e5bb2516a44f72a3",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Account"
+                  }
+                },
+                "Hierarchy": "Account"
+              }
+            },
+            "Level": "Account"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter04e9860de3cdc9dd0255",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Account"
+                  }
+                },
+                "Hierarchy": "Account"
+              }
+            },
+            "Level": "Account ID"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter525f2f3019b0e8202e96",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company geography"
+              }
+            },
+            "Level": "Company continent"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filterbeadea6f95a7c39b9363",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company geography"
+              }
+            },
+            "Level": "Company region"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter44728acbaf9c19c95a66",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company geography"
+              }
+            },
+            "Level": "Company country"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter766c71a1e4a19620878e",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Cost center"
+                  }
+                },
+                "Hierarchy": "Cost center"
+              }
+            },
+            "Level": "Cost center ID"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filterfdd234ffee23ef5f7979",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Material"
+                  }
+                },
+                "Hierarchy": "Material"
+              }
+            },
+            "Level": "Material consolidated"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter29877739cd3a1a1535cb",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Material"
+                  }
+                },
+                "Hierarchy": "Material"
+              }
+            },
+            "Level": "Material ID"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter7e58311bb0c8a4badb93",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Payment term"
+                  }
+                },
+                "Hierarchy": "Payment term group"
+              }
+            },
+            "Level": "Payment term cons"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter7bae451ff5137accbd62",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier country"
+                  }
+                },
+                "Hierarchy": "Supplier geography"
+              }
+            },
+            "Level": "Supplier continent"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter1ebbea869b40231c042d",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier country"
+                  }
+                },
+                "Hierarchy": "Supplier geography"
+              }
+            },
+            "Level": "Supplier region"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter3d667bff3f4f3e95a3e8",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier country"
+                  }
+                },
+                "Hierarchy": "Supplier geography"
+              }
+            },
+            "Level": "Supplier country"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter1e8b3e4ca81d70b10730",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Material group"
+                  }
+                },
+                "Hierarchy": "Material group"
+              }
+            },
+            "Level": "Material group ID"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter5180afefa66728eba589",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Material group"
+                  }
+                },
+                "Hierarchy": "Material group"
+              }
+            },
+            "Level": "Material group"
+          }
+        },
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter81f4b71f7268983eed22",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Cost center"
+                  }
+                },
+                "Hierarchy": "Cost center"
+              }
+            },
+            "Level": "Cost center"
+          }
+        },
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "Pod24",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "Param_Filtere82e21855d7e1000c0d7",
+        "boundFilter": "Filtere82e21855d7e1000c0d7",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company"
+              }
+            },
+            "Level": "Company level 1"
+          }
+        }
+      },
+      {
+        "name": "Param_Filterb0f93bc560b50b46b2dd",
+        "boundFilter": "Filterb0f93bc560b50b46b2dd",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company"
+              }
+            },
+            "Level": "Company level 2"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter979f4d569c2654e57b66",
+        "boundFilter": "Filter979f4d569c2654e57b66",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company"
+              }
+            },
+            "Level": "Company level 3"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter0892bd0add70bedc17cb",
+        "boundFilter": "Filter0892bd0add70bedc17cb",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company"
+              }
+            },
+            "Level": "Company level 4"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter6e78c53e19b82e2ab3c3",
+        "boundFilter": "Filter6e78c53e19b82e2ab3c3",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Category tree"
+                  }
+                },
+                "Hierarchy": "Category tree names"
+              }
+            },
+            "Level": "Category name level 1"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter971009e982a75742bba6",
+        "boundFilter": "Filter971009e982a75742bba6",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Category tree"
+                  }
+                },
+                "Hierarchy": "Category tree names"
+              }
+            },
+            "Level": "Category name level 2"
+          }
+        }
+      },
+      {
+        "name": "Param_Filtera95ba2923b0ebb2d26cd",
+        "boundFilter": "Filtera95ba2923b0ebb2d26cd",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Category tree"
+                  }
+                },
+                "Hierarchy": "Category tree names"
+              }
+            },
+            "Level": "Category name level 3"
+          }
+        }
+      },
+      {
+        "name": "Param_Filtere000d06a6250f2f8d7c9",
+        "boundFilter": "Filtere000d06a6250f2f8d7c9",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Category tree"
+                  }
+                },
+                "Hierarchy": "Category tree names"
+              }
+            },
+            "Level": "Category name level 4"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter40c80eb89dcb6b74fe98",
+        "boundFilter": "Filter40c80eb89dcb6b74fe98",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier level 1"
+          }
+        }
+      },
+      {
+        "name": "Param_Filtere958342d6f5717d00ffd",
+        "boundFilter": "Filtere958342d6f5717d00ffd",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier level 2"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter21c7878367507c9fbcda",
+        "boundFilter": "Filter21c7878367507c9fbcda",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier"
+          }
+        }
+      },
+      {
+        "name": "Param_Filterdfb4bd20c68d7e7c5d90",
+        "boundFilter": "Filterdfb4bd20c68d7e7c5d90",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier"
+                  }
+                },
+                "Hierarchy": "Supplier"
+              }
+            },
+            "Level": "Supplier ID"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter54e4e5bb2516a44f72a3",
+        "boundFilter": "Filter54e4e5bb2516a44f72a3",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Account"
+                  }
+                },
+                "Hierarchy": "Account"
+              }
+            },
+            "Level": "Account"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter04e9860de3cdc9dd0255",
+        "boundFilter": "Filter04e9860de3cdc9dd0255",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Account"
+                  }
+                },
+                "Hierarchy": "Account"
+              }
+            },
+            "Level": "Account ID"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter525f2f3019b0e8202e96",
+        "boundFilter": "Filter525f2f3019b0e8202e96",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company geography"
+              }
+            },
+            "Level": "Company continent"
+          }
+        }
+      },
+      {
+        "name": "Param_Filterbeadea6f95a7c39b9363",
+        "boundFilter": "Filterbeadea6f95a7c39b9363",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company geography"
+              }
+            },
+            "Level": "Company region"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter44728acbaf9c19c95a66",
+        "boundFilter": "Filter44728acbaf9c19c95a66",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Company"
+                  }
+                },
+                "Hierarchy": "Company geography"
+              }
+            },
+            "Level": "Company country"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter766c71a1e4a19620878e",
+        "boundFilter": "Filter766c71a1e4a19620878e",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Cost center"
+                  }
+                },
+                "Hierarchy": "Cost center"
+              }
+            },
+            "Level": "Cost center ID"
+          }
+        }
+      },
+      {
+        "name": "Param_Filterfdd234ffee23ef5f7979",
+        "boundFilter": "Filterfdd234ffee23ef5f7979",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Material"
+                  }
+                },
+                "Hierarchy": "Material"
+              }
+            },
+            "Level": "Material consolidated"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter29877739cd3a1a1535cb",
+        "boundFilter": "Filter29877739cd3a1a1535cb",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Material"
+                  }
+                },
+                "Hierarchy": "Material"
+              }
+            },
+            "Level": "Material ID"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter7e58311bb0c8a4badb93",
+        "boundFilter": "Filter7e58311bb0c8a4badb93",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Payment term"
+                  }
+                },
+                "Hierarchy": "Payment term group"
+              }
+            },
+            "Level": "Payment term cons"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter7bae451ff5137accbd62",
+        "boundFilter": "Filter7bae451ff5137accbd62",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier country"
+                  }
+                },
+                "Hierarchy": "Supplier geography"
+              }
+            },
+            "Level": "Supplier continent"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter1ebbea869b40231c042d",
+        "boundFilter": "Filter1ebbea869b40231c042d",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier country"
+                  }
+                },
+                "Hierarchy": "Supplier geography"
+              }
+            },
+            "Level": "Supplier region"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter3d667bff3f4f3e95a3e8",
+        "boundFilter": "Filter3d667bff3f4f3e95a3e8",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Supplier country"
+                  }
+                },
+                "Hierarchy": "Supplier geography"
+              }
+            },
+            "Level": "Supplier country"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter1e8b3e4ca81d70b10730",
+        "boundFilter": "Filter1e8b3e4ca81d70b10730",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Material group"
+                  }
+                },
+                "Hierarchy": "Material group"
+              }
+            },
+            "Level": "Material group ID"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter5180afefa66728eba589",
+        "boundFilter": "Filter5180afefa66728eba589",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Material group"
+                  }
+                },
+                "Hierarchy": "Material group"
+              }
+            },
+            "Level": "Material group"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter81f4b71f7268983eed22",
+        "boundFilter": "Filter81f4b71f7268983eed22",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Cost center"
+                  }
+                },
+                "Hierarchy": "Cost center"
+              }
+            },
+            "Level": "Cost center"
+          }
+        }
+      }
+    ],
+    "acceptsFilterContext": "None"
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Footer background.svg'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Footer_background5749537165791769.svg"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Fit'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visibility": "HiddenInViewMode",
+  "visualInteractions": [
+    {
+      "source": "d6ffe055e4b1906e7762",
+      "target": "dd2d064ca6757ad740d7",
+      "type": "DataFilter"
+    },
+    {
+      "source": "dd2d064ca6757ad740d7",
+      "target": "d6ffe055e4b1906e7762",
+      "type": "DataFilter"
+    },
+    {
+      "source": "dd2d064ca6757ad740d7",
+      "target": "cfc6d3d4c023d6a0ddd2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "7c187861254e037c2140",
+      "target": "e4300240d154b384d62a",
+      "type": "DataFilter"
+    },
+    {
+      "source": "9acf8e9a3cd9150c056e",
+      "target": "e95cf5d17956273f22c7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "dd2d064ca6757ad740d7",
+      "target": "7ee94116620cb441ea89",
+      "type": "DataFilter"
+    },
+    {
+      "source": "dd2d064ca6757ad740d7",
+      "target": "e95cf5d17956273f22c7",
+      "type": "DataFilter"
+    },
+    {
+      "source": "d6ffe055e4b1906e7762",
+      "target": "e95cf5d17956273f22c7",
+      "type": "DataFilter"
+    },
+    {
+      "source": "d6ffe055e4b1906e7762",
+      "target": "7ee94116620cb441ea89",
+      "type": "DataFilter"
+    }
+  ]
+}

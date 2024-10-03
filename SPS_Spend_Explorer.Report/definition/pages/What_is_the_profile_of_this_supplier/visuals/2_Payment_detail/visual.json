@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.2.0/schema.json",
+  "name": "51a9c1aade9ae446dc12",
+  "position": {
+    "x": 128,
+    "y": 415,
+    "z": 1000,
+    "height": 585,
+    "width": 1660,
+    "tabOrder": 3000
+  },
+  "visualGroup": {
+    "displayName": "Payment detail",
+    "groupMode": "ScaleMode"
+  },
+  "isHidden": true
+}

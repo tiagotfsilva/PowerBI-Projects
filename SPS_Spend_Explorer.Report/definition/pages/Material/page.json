@@ -1,0 +1,234 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.2.0/schema.json",
+  "name": "ReportSectionfa14e1b5c2aaa8742a7b",
+  "displayName": "Material",
+  "displayOption": "FitToWidth",
+  "height": 1080,
+  "width": 1920,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Filter53cebb5834cdd0164d20",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Material"
+                  }
+                },
+                "Hierarchy": "Material reference"
+              }
+            },
+            "Level": "Material reference"
+          }
+        },
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "m",
+              "Entity": "Material",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "m"
+                          }
+                        },
+                        "Property": "DIM_MATERIAL_REFERENCE"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Material Reference'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              },
+              "Annotations": {
+                "filterExpressionMetadata": {
+                  "expressions": [
+                    {
+                      "HierarchyLevel": {
+                        "Expression": {
+                          "Hierarchy": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Material"
+                              }
+                            },
+                            "Hierarchy": "Material reference"
+                          }
+                        },
+                        "Level": "Material reference"
+                      }
+                    }
+                  ],
+                  "decomposedIdentities": {
+                    "values": [
+                      [
+                        {
+                          "0": [
+                            {
+                              "Literal": {
+                                "Value": "'Material Reference'"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    ],
+                    "columns": [
+                      {
+                        "value": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Material"
+                              }
+                            },
+                            "Property": "DIM_MATERIAL_REFERENCE"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "valueMap": [
+                    {
+                      "0": "Material Reference"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User",
+        "isHiddenInViewMode": true
+      },
+      {
+        "name": "28f65b298ddaee7f7c74",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Value type"
+                  }
+                },
+                "Hierarchy": "Value type"
+              }
+            },
+            "Level": "Value type"
+          }
+        },
+        "howCreated": "User"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "Pod10",
+    "type": "Default",
+    "parameters": [],
+    "acceptsFilterContext": "None"
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Footer background.svg'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Footer_background8738227597059491.svg"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Fit'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visibility": "HiddenInViewMode",
+  "visualInteractions": [
+    {
+      "source": "0a14ca45d78abc17f39a",
+      "target": "6ed477bfcd1001b89222",
+      "type": "DataFilter"
+    },
+    {
+      "source": "783b4cf1dd1de10bb7e1",
+      "target": "6ed477bfcd1001b89222",
+      "type": "NoFilter"
+    },
+    {
+      "source": "0a14ca45d78abc17f39a",
+      "target": "705a04a3395217011464",
+      "type": "DataFilter"
+    },
+    {
+      "source": "0a14ca45d78abc17f39a",
+      "target": "339af330d01ed5b0b6a0",
+      "type": "DataFilter"
+    },
+    {
+      "source": "705a04a3395217011464",
+      "target": "0a14ca45d78abc17f39a",
+      "type": "DataFilter"
+    },
+    {
+      "source": "705a04a3395217011464",
+      "target": "6ed477bfcd1001b89222",
+      "type": "DataFilter"
+    },
+    {
+      "source": "d74839f4e30bb88b3e46",
+      "target": "0f33ca8c38eb07a300ce",
+      "type": "DataFilter"
+    },
+    {
+      "source": "0a14ca45d78abc17f39a",
+      "target": "5ad87e269502ae1a9de0",
+      "type": "DataFilter"
+    },
+    {
+      "source": "705a04a3395217011464",
+      "target": "5ad87e269502ae1a9de0",
+      "type": "DataFilter"
+    }
+  ]
+}

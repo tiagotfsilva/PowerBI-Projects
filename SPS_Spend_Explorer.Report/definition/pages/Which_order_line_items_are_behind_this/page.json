@@ -1,0 +1,224 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.2.0/schema.json",
+  "name": "ReportSection20e1207da7fd8280de14",
+  "displayName": "Which order line items are behind this?",
+  "displayOption": "FitToWidth",
+  "height": 1080,
+  "width": 1920,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Filter2b5955315d6628c39778",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Order"
+                  }
+                },
+                "Hierarchy": "Order"
+              }
+            },
+            "Level": "Order ID"
+          }
+        },
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "o",
+              "Entity": "Order",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "o"
+                          }
+                        },
+                        "Property": "KEY_ORDER"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'POR005.4500148506'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              },
+              "Annotations": {
+                "filterExpressionMetadata": {
+                  "expressions": [
+                    {
+                      "HierarchyLevel": {
+                        "Expression": {
+                          "Hierarchy": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Order"
+                              }
+                            },
+                            "Hierarchy": "Order"
+                          }
+                        },
+                        "Level": "Order ID"
+                      }
+                    }
+                  ],
+                  "decomposedIdentities": {
+                    "values": [
+                      [
+                        {
+                          "0": [
+                            {
+                              "Literal": {
+                                "Value": "'POR005.4500148506'"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    ],
+                    "columns": [
+                      {
+                        "value": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Entity": "Order"
+                              }
+                            },
+                            "Property": "KEY_ORDER"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "valueMap": [
+                    {
+                      "0": "POR005.4500148506"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "Pod32",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "Param_Filter2b5955315d6628c39778",
+        "boundFilter": "Filter2b5955315d6628c39778",
+        "fieldExpr": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Order"
+                  }
+                },
+                "Hierarchy": "Order"
+              }
+            },
+            "Level": "Order ID"
+          }
+        }
+      }
+    ],
+    "acceptsFilterContext": "None"
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Footer background.svg'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Footer_background6272853034017325.svg"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Fit'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visibility": "HiddenInViewMode",
+  "visualInteractions": [
+    {
+      "source": "caaedaac9de02f092364",
+      "target": "56ed2ec7961c84e66a79",
+      "type": "NoFilter"
+    },
+    {
+      "source": "caaedaac9de02f092364",
+      "target": "bc96a9a6d7a9bd9d7166",
+      "type": "NoFilter"
+    },
+    {
+      "source": "caaedaac9de02f092364",
+      "target": "69442dd873dd39afbbaf",
+      "type": "NoFilter"
+    },
+    {
+      "source": "a4c6189a35a9dadba3d8",
+      "target": "69442dd873dd39afbbaf",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a4c6189a35a9dadba3d8",
+      "target": "bc96a9a6d7a9bd9d7166",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a4c6189a35a9dadba3d8",
+      "target": "56ed2ec7961c84e66a79",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a9c30e6b06d0b65a7580",
+      "target": "c0e7de804db3d0b7dc8d",
+      "type": "DataFilter"
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmarksMetadata/1.0.0/schema.json",
+  "items": [
+    {
+      "name": "Bookmark98c794b66e6910147930",
+      "displayName": "Filter pane",
+      "children": [
+        "Bookmark09dea3435aa30b7b3c71",
+        "Bookmark61907e4751cb06d74357",
+        "Bookmarkd6d98cf705c29e707da4",
+        "Bookmarka6713ada28a030ba305a",
+        "Bookmark8ab8a089927207f0a555",
+        "Bookmark0ac4f9a655b0941485b2",
+        "Bookmarkfaf2de948b0bb3079a10",
+        "Bookmarkfb203c6ac1a7fe7c5473",
+        "Bookmarkf213b66ffef5257fcbac",
+        "Bookmarkae57659177ac3858dc98",
+        "Bookmark610fbf9a27a7a3974c58",
+        "Bookmarkd0c248157d7af4a14ee1",
+        "Bookmark1e4cc2f7ce270501f7e7",
+        "Bookmarkcd9d0e71ddfacaf1c8a4",
+        "Bookmarkf2cefceebd2d2314bddb",
+        "Bookmark481d6c33ab0e4e9b6729",
+        "Bookmarkec154eff2077d1ead7bc",
+        "Bookmarkf2c817c0d4fb6ec2809d",
+        "Bookmark3e4985b3c83d9991afc1",
+        "Bookmarke35e50f88eb899bd1835",
+        "Bookmarkebf55f99f7dd3f1b209d",
+        "Bookmark8c525bfcdd8a6713557b",
+        "Bookmark20bffd7699ba10cb92c3",
+        "Bookmarkf9404c4b7249dd194f49",
+        "Bookmark4e40fc0c691d1ec21683",
+        "Bookmarkc5ee35fd92f7f39894a6",
+        "Bookmarke8eeb0d7ca18bffe70de",
+        "Bookmarkd2f9815947d74fc7b02c",
+        "Bookmark4fbae8a74f717289f7b1",
+        "Bookmarkc1088d01d463375a6ffc",
+        "Bookmark92fae48974b656301c81",
+        "Bookmark912d0ce0111afbc06c36",
+        "Bookmark3d03d3eb1d08a2ec902b",
+        "Bookmark69fc730d55991aa3b7a7",
+        "Bookmark79c6c2cf0c91ab99bca6",
+        "Bookmark1137fbd0390053b1b453",
+        "Bookmarkb6da125608652b415700",
+        "Bookmark34ea1e66a7a2b0bc005e",
+        "Bookmark4e5923a2b9e423e0481b",
+        "Bookmarka4d3c69076ca301200e3",
+        "Bookmark889d2cf4aff0469708d1",
+        "Bookmarka23e874699c276c4c9cc",
+        "Bookmark5eb4d317b9e68d1b2e15",
+        "Bookmark118e7f37c605c5292b57",
+        "Bookmark70d00bb963250053ed80",
+        "Bookmarkfc2170886b67504e9476",
+        "Bookmark8bb708e2da8117ab567b",
+        "Bookmark5e08321f620e5845aa13",
+        "Bookmarkca6f8a25f502987e9a9f",
+        "Bookmark22833a6a0f61c7c0284a",
+        "Bookmarke490b75cb083247e346e",
+        "Bookmark6c8d80b99fca5480d1cf",
+        "Bookmark74cfb0f16a6a3daf461e",
+        "Bookmark34ae0725361dca205281",
+        "Bookmark47566b4850d624abefe4",
+        "Bookmark1d83f71a038f238d6a79",
+        "Bookmark8a13d2ae5352ad764982",
+        "Bookmarkd1d9a681c3b94766c924",
+        "Bookmark92465c0648c4e22ff552",
+        "Bookmark8dee1e32e53df222bae0",
+        "Bookmarkc76c2b4fc25a21015ce4",
+        "Bookmark80642924a56b9eee07ae",
+        "Bookmarkfd1870239b3c790a4bcf",
+        "Bookmarkb91b633c018a08b906f0",
+        "Bookmark7bce583849ee34974d6d",
+        "Bookmark110a05f8cc3f37bdb623",
+        "Bookmark5914abf83dc19b3956cb",
+        "Bookmark81ad3d6cc7f50bc26fd5",
+        "Bookmarkac3a1249cbc7870bad51",
+        "Bookmark31b89b8b085e29668399",
+        "Bookmarka93346dd185f9b555387",
+        "Bookmark72116eaaebe0cec18e35",
+        "Bookmark018a82cb97072bfe7a3d",
+        "Bookmarkd1a3ef4573348b805114",
+        "Bookmarkc0e50730387c980e8ddd",
+        "Bookmark12c6a0d5221cbf22add1",
+        "Bookmarkefe11e10a85d9692eb42",
+        "Bookmark8eb725c05444aa53cd96",
+        "Bookmark5fc51e0a620580918089",
+        "Bookmark08b91d3c2cc8ba00a3e7",
+        "Bookmarkd42eb6a7e551998e585a",
+        "Bookmark8034d44e0a67c2459c90"
+      ]
+    },
+    {
+      "name": "Bookmark2e4927d3d6e3a6298813",
+      "displayName": "Documentation",
+      "children": [
+        "Bookmark5a9ed1799fd93b7789bc",
+        "Bookmarke30f895a285b0b82783d",
+        "Bookmark121780195165b5d1787b"
+      ]
+    },
+    {
+      "name": "Bookmarkd8888d64452633a58a81",
+      "displayName": "Home",
+      "children": [
+        "Bookmarkde04961817c082a3776e",
+        "Bookmark45237927e850d7733cb5"
+      ]
+    },
+    {
+      "name": "Bookmark2d2c0262a1c072178b5d",
+      "displayName": "Spend by",
+      "children": [
+        "Bookmark27e49992a02b4bbc4a6c",
+        "Bookmark553ba410587040d87d18"
+      ]
+    },
+    {
+      "name": "Bookmarke517b46314466d3cb73b",
+      "displayName": "Spend by company",
+      "children": [
+        "Bookmark87d0e8825b308a5b3d83",
+        "Bookmarkf81a1396c61143ed93ed"
+      ]
+    },
+    {
+      "name": "Bookmark5572539af1345e409053",
+      "displayName": "Spend by company geography",
+      "children": [
+        "Bookmark31bd252e4581fe6192e0",
+        "Bookmark135fe95eff1dd4fd8d79"
+      ]
+    },
+    {
+      "name": "Bookmarkb13c888cb1ebc1a8c411",
+      "displayName": "Spend by category",
+      "children": [
+        "Bookmark8ee3f08c95848fca5e4b",
+        "Bookmark2f3ef839935dca5c34d6"
+      ]
+    },
+    {
+      "name": "Bookmark058623859a059116d544",
+      "displayName": "Spend by supplier",
+      "children": [
+        "Bookmark82efc90a9f20285e69c8",
+        "Bookmark7ae062635d92342f86f3"
+      ]
+    },
+    {
+      "name": "Bookmarkef917f76068cc113d2c6",
+      "displayName": "Spend by supplier geography",
+      "children": [
+        "Bookmarkcdf6db0bed77dd8220ba",
+        "Bookmark8fff874481c6ba1af95f"
+      ]
+    },
+    {
+      "name": "Bookmarkc49d3cafa53e00f6e81a",
+      "displayName": "Spend by material group",
+      "children": [
+        "Bookmarkfa19dcdc7b35521ba8ac",
+        "Bookmarkb45a7cc4c4e27e8b449c"
+      ]
+    },
+    {
+      "name": "Bookmark9d6e15181a4f336e6739",
+      "displayName": "Spend by material",
+      "children": [
+        "Bookmark80d65ffb1bd1df2bd5ba",
+        "Bookmark65ff1a3b9d484284a718"
+      ]
+    },
+    {
+      "name": "Bookmark610f16cf4ea52b71bcfc",
+      "displayName": "Spend by payment term",
+      "children": [
+        "Bookmarkdd3f0bea3ae7df8fb229",
+        "Bookmarkccbfe25213b6596eb3fa"
+      ]
+    },
+    {
+      "name": "Bookmarkcc9db8d7eba221db9bda",
+      "displayName": "Spend by account",
+      "children": [
+        "Bookmark317f51faa7ef322e2338",
+        "Bookmark084f625eb943090801dc"
+      ]
+    },
+    {
+      "name": "Bookmark6dee5cf894fc24f57215",
+      "displayName": "Spend by plant",
+      "children": [
+        "Bookmarkc7ac8a253ba8cdab0f6a",
+        "Bookmarkbe28b649c1d676a32f14"
+      ]
+    },
+    {
+      "name": "Bookmark388875dbb7fe0ef41b48",
+      "displayName": "Spend by cost center",
+      "children": [
+        "Bookmark3df0d0f9c8edc5364471",
+        "Bookmark8ee27475f148617cac5c"
+      ]
+    },
+    {
+      "name": "Bookmark21aa0e1614f1c6185754",
+      "displayName": "Spend by profit center",
+      "children": [
+        "Bookmark6bd9612a2be72303ab7a",
+        "Bookmark9eace6a35342a894f713"
+      ]
+    },
+    {
+      "name": "Bookmark524e12706147867f60e3",
+      "displayName": "Category profile",
+      "children": [
+        "Bookmarka15fcd7ca5677ef5bb4f",
+        "Bookmarkc8bcc6e520dd3c6f5846",
+        "Bookmarkd9073843f80dfc715881",
+        "Bookmark869440448c7f6d3bd21c",
+        "Bookmarkd815be325204103eac7b",
+        "Bookmarke47cd291f75155369a82"
+      ]
+    },
+    {
+      "name": "a4adf7f0c37006ae2926",
+      "displayName": "Category profile - suppliers",
+      "children": [
+        "92ee86d8ad34ade0aa9d",
+        "6ce538a3ac6ba51cd4a9",
+        "f8c35b889ecb00c7adc5",
+        "b03f1c11670338c280ab"
+      ]
+    },
+    {
+      "name": "Bookmark35f5a2752c35204a171a",
+      "displayName": "Category profile - Materials",
+      "children": [
+        "Bookmarke24b7f25051e8ad0a720",
+        "Bookmarkc10ac66610279ca0d4aa",
+        "Bookmarka88737d4473e31d2978d"
+      ]
+    },
+    {
+      "name": "Bookmark44b72818e70c56a3ece7",
+      "displayName": "Category profile - PO",
+      "children": [
+        "Bookmarkdda4dc1a02a1c0b15c81",
+        "Bookmarkd7a681f5b72c7c9d013e"
+      ]
+    },
+    {
+      "name": "Bookmarkce3c4e10df662b60807a",
+      "displayName": "Supplier profile",
+      "children": [
+        "Bookmarkf680471a1c51f85268db",
+        "Bookmark5b4af390e542f4c84b56",
+        "Bookmark1985a0d234d7cf90783d",
+        "Bookmark775fe3260937607c8214",
+        "Bookmark2cc6dce904b306705e60",
+        "Bookmark53deda2971637c671296"
+      ]
+    },
+    {
+      "name": "Bookmarkf0c219117db46654efa1",
+      "displayName": "Supplier profile - Materials",
+      "children": [
+        "Bookmark335639e31ae8b38019c4",
+        "Bookmarkb9562722aaabca34adf0",
+        "Bookmarkcb166b5c27c7f5fe1e5f"
+      ]
+    },
+    {
+      "name": "Bookmark4473d1d7c8d1faace0d6",
+      "displayName": "Supplier profile - PO",
+      "children": [
+        "Bookmarka2176fb74e496ef4ffe9",
+        "Bookmarkadd0bfdbd796a8acbc8d"
+      ]
+    },
+    {
+      "name": "Bookmarkf269407e624f9ed38135",
+      "displayName": "Which companies are behind this?",
+      "children": [
+        "Bookmark9e16685e353ad7af31ea",
+        "Bookmarkbfc5ba992c5e7a7a4b29"
+      ]
+    },
+    {
+      "name": "Bookmarkc0242bc19d490c84f95c",
+      "displayName": "Which company geographies are behind this?",
+      "children": [
+        "Bookmarkecc92a779b0876b48708",
+        "Bookmark575a3c87a26a9de957a3"
+      ]
+    },
+    {
+      "name": "Bookmark320cc2ffb341f568c295",
+      "displayName": "Which categories are behind this?",
+      "children": [
+        "Bookmarkabb1aeed87ae632fa179",
+        "Bookmark6391e81bd791e3ced721"
+      ]
+    },
+    {
+      "name": "Bookmarka6fb30d792f3ba86a027",
+      "displayName": "Which suppliers are behind this?",
+      "children": [
+        "Bookmark7fff96887b520de550a4",
+        "Bookmarkf9c57aeb2aefd5095fe4"
+      ]
+    },
+    {
+      "name": "Bookmark0c4824d511097752fd18",
+      "displayName": "Which supplier geographies are behind this?",
+      "children": [
+        "Bookmark1e21532a5881724b52e9",
+        "Bookmarkf2815daee3fc6c043747"
+      ]
+    },
+    {
+      "name": "Bookmark0f502dafc04a949ea9a4",
+      "displayName": "Which material groups are behind this?",
+      "children": [
+        "Bookmark6ecb84636f3426c09f19",
+        "Bookmarkf9e6965230022bafde76"
+      ]
+    },
+    {
+      "name": "Bookmark6a9cac02414183f9c36c",
+      "displayName": "Which materials are behind this?",
+      "children": [
+        "Bookmarkf9eb3a90ab304a2c88c1",
+        "Bookmark19a8f4a9c5adb1752e79"
+      ]
+    },
+    {
+      "name": "Bookmarka70653676d53fcbea451",
+      "displayName": "Which payment terms are behind this?",
+      "children": [
+        "Bookmark0ff71b9147b9217971b1",
+        "Bookmark304db892495ca0524588"
+      ]
+    },
+    {
+      "name": "Bookmark2ec97523fe23b7614ca9",
+      "displayName": "Which accounts are behind this?",
+      "children": [
+        "Bookmark05b653231f13acfde323",
+        "Bookmark4090623f3c82d4f05b6a"
+      ]
+    },
+    {
+      "name": "Bookmark4343862ac6f0433be423",
+      "displayName": "Which plants are behind this?",
+      "children": [
+        "Bookmark2f01b7e1c503d9cc4e2e",
+        "Bookmark22da39c163b95743956e"
+      ]
+    },
+    {
+      "name": "Bookmarkc3eb051932de20e790a6",
+      "displayName": "Which cost centers are behind this?",
+      "children": [
+        "Bookmarkc104d5f56a2633f36b90",
+        "Bookmark41cfe5961c7a1eaa87e3"
+      ]
+    },
+    {
+      "name": "Bookmark5250ddec0892a93aa524",
+      "displayName": "Which profit centers are behind this?",
+      "children": [
+        "Bookmark0f6b93a4e2547785a1bc",
+        "Bookmark3595d98b451b85e865a5"
+      ]
+    },
+    {
+      "name": "Bookmark418dffb845f158ce17a7",
+      "displayName": "DT Category profile",
+      "children": [
+        "Bookmarkc8f6b404a01c64d14aba",
+        "Bookmark741ccc39d2c96814465a",
+        "Bookmark7a2026c39458fa26da17",
+        "Bookmark2cbd1d88bd23c54b91ef",
+        "Bookmarkb1c477ca1bd42b192da9",
+        "Bookmark989169644bbd8b9964c5"
+      ]
+    },
+    {
+      "name": "Bookmark6d5d7f6bc857aa371368",
+      "displayName": "DT Category profile - supplier",
+      "children": [
+        "76519de8092891b16aa1",
+        "ea0ee9e69d6c810e6c86",
+        "e688a0600a1503ddb220",
+        "60fa2d323521093ab30a"
+      ]
+    },
+    {
+      "name": "Bookmark0350ebbbd11cc3c5a258",
+      "displayName": "DT Category profile - Materials",
+      "children": [
+        "Bookmarkd146dbdafedc90b00f9c",
+        "Bookmarke4c87857347af4dd45d6",
+        "Bookmark00dbb084625dec9525ca"
+      ]
+    },
+    {
+      "name": "Bookmark0420feb6aa519dad314a",
+      "displayName": "DT Category profile - PO",
+      "children": [
+        "Bookmark6227a8466dab750a0a4c",
+        "Bookmarkc371110391414a3da0ee"
+      ]
+    },
+    {
+      "name": "Bookmark0bd9f4304349586cc460",
+      "displayName": "DT Supplier profile",
+      "children": [
+        "Bookmarkefc8783025525f1ad5e5",
+        "Bookmarkcdec6f9b8c4c9b4e48b9",
+        "Bookmark26bc491d5211cc59335a",
+        "Bookmarka0a0e6ebcd4b18f43e9a",
+        "Bookmark3b339ab7538c5b94c353",
+        "Bookmark9a750075f263dc3bdeec"
+      ]
+    },
+    {
+      "name": "Bookmark26de2e164d254c16bf32",
+      "displayName": "DT Supplier profile - Materials",
+      "children": [
+        "Bookmarkb076714e48e4b8a9488e",
+        "Bookmark1378d825a67aa5630786",
+        "Bookmark88e49756c49af1d1d9d6"
+      ]
+    },
+    {
+      "name": "Bookmark700eae212f4bb3a172d9",
+      "displayName": "DT Supplier profile - PO",
+      "children": [
+        "Bookmarkd120119cdd85556d2b70",
+        "Bookmarkecaeb365339ea5f4b807"
+      ]
+    },
+    {
+      "name": "Bookmarkda6e3644606f27ffb3b0",
+      "displayName": "Invoice explorer",
+      "children": [
+        "Bookmark03ece86d22d774d71bf3",
+        "Bookmark4a8c0146dbae22149a70",
+        "Bookmarke5d915e6e8b62e5f606b"
+      ]
+    },
+    {
+      "name": "Bookmarka5674e35e9ae6a9a2700",
+      "displayName": "Group 43",
+      "children": [
+        "Bookmark114357811b6b90ec9d53",
+        "Bookmark3cbad6bb70e0144d4b00"
+      ]
+    }
+  ]
+}

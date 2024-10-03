@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.2.0/schema.json",
+  "name": "f4c4e4757f1f436663e8",
+  "position": {
+    "x": 0,
+    "y": 56,
+    "z": 0,
+    "height": 118.41873970380868,
+    "width": 1633.7288135593221,
+    "tabOrder": 10000
+  },
+  "visualGroup": {
+    "displayName": "Data Export",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "5ef9a0a35a8462f99580"
+}

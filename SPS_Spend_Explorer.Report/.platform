@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "SPS_Spend_Explorer"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f49e77dd-2e2c-4c8f-9b20-58cddc8496ac"
+  }
+}
